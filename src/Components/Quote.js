@@ -1,0 +1,37 @@
+import React from "react";
+import Button from "./Buttons";
+
+function Quote() {
+  return (
+    <>
+      <div className="quote">
+        <h1>
+          Let's create a measurable<br />
+          impact on your business.
+        </h1>
+        <Button btnSize="btn--medium" btnStyle="btn--white">
+          Design A Quote
+        </Button>
+      </div>
+      <style jsx>{`
+        .quote h1 {
+          color: #ffe462;
+          text-align: center;
+        }
+        .quote {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        @media screen and (max-width: 500px) {
+          .quote h1 {
+            font-size: 35px;
+          }
+        }
+      `}</style>
+    </>
+  );
+}
+
+export default Quote;
