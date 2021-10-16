@@ -41,7 +41,7 @@ let fCard = {
 const MainCard = () => {
   return (
     <>
-      <div class="container-fluid w-90 d-flex align-items-center justify-content-between pb-lg-4 flex-wrap main_card_flex pb-lg-4">
+      <div class="container-fluid w-70 d-flex align-items-center justify-content-between flex-wrap main_card_flex pb-lg-2">
         <Cards
           src={fCard}
           class="d-flex flex-column first_card small-screen col-2 mx-auto"
@@ -56,7 +56,7 @@ const MainCard = () => {
         />
         <Cards
           src={fCard.sixth}
-          class="d-flex flex-column second_card small-screen3 col-2 mx-auto"
+          class="d-flex flex-column second_card small-screen3 col-md-2 mx-auto"
         />
         <Cards
           src={fCard.seventh}

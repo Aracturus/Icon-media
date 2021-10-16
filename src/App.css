@@ -8,7 +8,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 body {
   background: #2b0505 !important;
@@ -384,7 +384,7 @@ body {
     margin: 60px auto 20px auto !important;
   }
 }
-@media (max-width: 690px){
+/* @media (max-width: 690px){
   .small-screen4 .img_one {
     position: relative !important;
     right: 25% !important;
@@ -424,14 +424,14 @@ body {
     width: 90%;
     font-size: 1.1rem !important;
   }
-} 
+}  */
 
 /* newly added */
 
 
-@media (max-width: 740px) {
+ @media (max-width: 740px) {
   .main_card_flex {
-    display: flex !important;
+    /* display: flex !important; */
     flex-wrap: wrap !important;
     justify-content: center !important;
     align-items: center !important;
@@ -440,7 +440,7 @@ body {
   .small-screen1,
   .small-screen2,
   .small-screen3 {
-    width: 50% !important;
+    width: 35% !important;
   }
   .card_img {
     margin: 0 10px;
@@ -720,14 +720,14 @@ body {
     position: relative;
     left: -1% !important;
   }
-}
+} */
 
 @media (min-width: 300px) and (max-width: 400px) {
   .container {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
+    /* display: flex !important; */
+    /* flex-direction: column !important; */
+    /* justify-content: center !important; */
+    /* align-items: center !important; */
   }
   .profile {
     width: 90%;
@@ -748,7 +748,13 @@ body {
 @media (max-width: 575px) {
   .container-img {
     position: relative;
-    left: 13%;
+    left: 8%;
   }
+}
+@media screen and (width:480px){
+  .container-img{
+    display: none;
+  }
+  
 }
 
