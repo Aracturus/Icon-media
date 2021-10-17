@@ -15,8 +15,10 @@ function Dashboard() {
   }, []);
   return (
     <>
-      <div className="section  mt-3 fluid-container text-light">
-        <h1 className="mt-3">
+
+    <div style={{height:"25vh"}}/>
+      <div className="section  mt-3 fluid-container text-light" >
+        <h1 className="mt-3" style={{fontSize:"55px",fontFamily:"Quicksand,sans-serif"}}>
           We can design just
           <br /> about anything
         </h1>
@@ -89,9 +91,9 @@ function Dashboard() {
           height: 600px;
         }
         .dashboard {
-          width: 70%;
+          width: 80%;
           margin: 0 auto;
-          height: 350px;
+          height: 450px;
           display: flex;
           flex-direction: row;
         }
@@ -99,7 +101,7 @@ function Dashboard() {
           width: 25%;
           background: #fff;
           color: #333;
-          height: 350px;
+          height: 450px;
           border-top-left-radius: 10px;
           border-bottom-left-radius: 10px;
           padding-top: 20px;
@@ -108,7 +110,7 @@ function Dashboard() {
           width: 70%;
           font-size: 18px;
           margin-bottom: 10px;
-          padding-bottom: 10px;
+          padding-bottom: 20px;
           border-bottom: 1px solid #dbdbdb;
           cursor: pointer;
           margin-left: 15px;
@@ -119,7 +121,7 @@ function Dashboard() {
           margin-left: 0;
           margin-right: 0;
           width: 100%;
-          padding: 15px 0 10px 15px;
+          padding: 15px 0 10px 20px;
           margin-top: -20px;
           border-top-left-radius: 10px;
           border-bottom-left-radius: 10px;
@@ -131,7 +133,7 @@ function Dashboard() {
           padding-left: 30px;
           padding-top: 20px;
           padding-right: 20px;
-          height: 350px;
+          height: 450px;
           border-radius: 10px;
           background-color: #187e8a;
         }

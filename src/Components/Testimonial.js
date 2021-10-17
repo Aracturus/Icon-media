@@ -3,8 +3,9 @@ import React from "react";
 function Testimonial() {
   return (
     <>
+    
       <div className="testimonials">
-        <h1>
+        <h1 >
           Less process,
           <br />
           more productivity
@@ -15,7 +16,9 @@ function Testimonial() {
           design process so you can see results faster and we can
           <br /> put more time into what we do best, design...
         </p>
-        <h2>Testimonials</h2>
+
+        <div className="testimonials">
+        <h1 style={{fontFamily: "Quicksand"}}>Testimonials</h1>
         <div className="cardsTest">
           <div className="testcards">
             <div className="testcards1"></div>
@@ -52,7 +55,7 @@ function Testimonial() {
             </div>
           </div>
         </div>
-      </div>
+      </div></div>
       <style jsx>{`
         .testimonials h1,
         h2 {
