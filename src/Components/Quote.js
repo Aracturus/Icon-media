@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "./Buttons";
-
+import Image from "./images/c.png";
 function Quote() {
   return (
     <>
-      <div className="quote">
+      <div className="quote" >
         <h1>
           Let's create a measurable<br />
           impact on your business.
@@ -12,6 +12,8 @@ function Quote() {
         <Button btnSize="btn--medium" btnStyle="btn--white">
           Design A Quote
         </Button>
+
+     
       </div>
       <style jsx>{`
         .quote h1 {
@@ -21,6 +23,7 @@ function Quote() {
         .quote {
             height: 500px;
             display: flex;
+          
             flex-direction: column;
             justify-content: center;
         }

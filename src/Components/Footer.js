@@ -1,15 +1,19 @@
 import React from "react";
-import Logo from "./logo";
+import Logo from "./images/homeLogo.png";
 
 function Footer() {
   return (
     <>
-        <div className=" light text-light">
+
+
+            
+        
+        <div className="light text-light ">
           <div className="contact">
             <table>
               <tr>
                 <td>
-                  <Logo />
+                  <img src={Logo} style={{height:"60px"}}   />
                 </td>
                 <td className="iconText">
                   We are a team of creatives who are
@@ -39,11 +43,12 @@ function Footer() {
           <small>Copyright</small>
           <small>Follow us</small>
         </div>
+        
       <style jsx>{`
         .light {
           height: 300px;
           background-color: #333333;
-          padding: 50px;
+          padding: 50px; 
         }
         .dark {
           height: 50px;

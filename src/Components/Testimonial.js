@@ -4,7 +4,7 @@ function Testimonial() {
   return (
     <>
     
-      <div className="testimonials">
+      <div className="testimonials" >
         <h1 >
           Less process,
           <br />
@@ -18,7 +18,7 @@ function Testimonial() {
         </p>
 
         <div className="testimonials">
-        <h1 style={{fontFamily: "Quicksand"}}>Testimonials</h1>
+        <h2 style={{fontFamily: "Quicksand", }}>Testimonials</h2>
         <div className="cardsTest">
           <div className="testcards">
             <div className="testcards1"></div>
@@ -68,8 +68,12 @@ function Testimonial() {
         .testimonials p {
           text-align: center;
         }
+        .testimonials h2{
+          font-size:55px;
+      
+        }
         .cardsTest {
-          margin-top: 200px;
+          margin-top: 100px;
           height: 300px;
           background-color: #f7d6cd;
         }
