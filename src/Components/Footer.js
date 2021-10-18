@@ -4,16 +4,17 @@ import Logo from "./images/homeLogo.png";
 function Footer() {
   return (
     <>
+    {/* <div className="bg-dark"> */}
 
 
-            
-        
-        <div className="light text-light ">
+        <div className=" light text-light">
+          <section className="container">
           <div className="contact">
+
             <table>
               <tr>
                 <td>
-                  <img src={Logo} style={{height:"60px"}}   />
+                  <img src={Logo} style={{height:"60px"}}  />
                 </td>
                 <td className="iconText">
                   We are a team of creatives who are
@@ -38,26 +39,43 @@ function Footer() {
               </ul>
             </div>
           </div>
+          </section>
         </div>
-        <div className="dark text-light">
-          <small>Copyright</small>
-          <small>Follow us</small>
+        <div className=" copy-social-container ">
+          <div className="container copy-social text-light">
+          <small > &#169;  2021,Icon Media House. Made &#10084; with in Toronto.
+          </small>
+          <small className="text-end">
+            Follow us on:
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-twitter"></i>
+            </small>
+          </div>
         </div>
-        
       <style jsx>{`
+      .fa-facebook,.fa-instagram,.fa-linkedin-in,.fa-twitter{
+        font-size:1rem;
+        padding:0 10px;
+      }
         .light {
           height: 300px;
           background-color: #333333;
-          padding: 50px; 
+          padding: 50px;
         }
-        .dark {
-          height: 50px;
+        .copy-social-container{
           background-color: #191919;
+
+
+        }
+        .copy-social {
+          height: 50px;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
-          padding: 0 50px 0 50px;
+          // padding: 0 50px 0 50px;
         }
         .iconText {
           font-size: 12px;
@@ -102,6 +120,9 @@ function Footer() {
           }
         }
       `}</style>
+    {/* </div> */}
+
+
     </>
   );
 }

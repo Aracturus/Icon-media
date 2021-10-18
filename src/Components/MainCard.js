@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
-// import one from "./images/one.jpg";
+import one from "./images/8.jpg";
 import video from "./Video/video.mp4";
 // import two from "./images/two.jpg";
 // import three from "./images/three.jpg";
@@ -16,7 +16,7 @@ import video from "./Video/video.mp4";
 // import thirteen from "./images/thirteen.jpg";
 
 let fCard = {
-  first: video,
+  first: one,
   second: video,
   third: video,
   fourth: {
