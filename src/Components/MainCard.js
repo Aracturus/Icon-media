@@ -1,40 +1,48 @@
 import React from "react";
 import Cards from "./Cards";
-import one from "./images/8.jpg";
-import video from "./Video/video.mp4";
+import img1 from "./images/8.jpg";
+import video1 from "./Video/coffee.mp4";
+import video2 from "./Video/video.mp4";
+import video3 from "./Video/watch.mp4";
+import img8 from "./Video/default-image.png";
 // import two from "./images/two.jpg";
 // import three from "./images/three.jpg";
 // import four from "./images/four.jpg";
 // import five from "./images/five.jpg";
 // import six from "./images/six.jpg";
-// import seven from "./images/seven.jpg";
-// import eight from "./images/eight.jpg";
+import img2 from "./images/seven.jpg";
+import img7 from "./images/eight.jpg";
 // import nine from "./images/nine.jpg";
-// import ten from "./images/ten.jpg";
-// import eleven from "./images/eleven.jpg";
-// import twelve from "./images/twelve.jpg";
-// import thirteen from "./images/thirteen.jpg";
+import img3 from "./images/ten.jpg";
+import img6 from "./images/eleven.jpg";
+import img4 from "./images/twelve.jpg";
+import img5 from "./images/thirteen.jpg";
 
 let fCard = {
-  first: one,
-  second: video,
-  third: video,
+  first: img1,
+  second: video1,
+  third: img2,
   fourth: {
-    first: one,
-    second: video,
+    first: img6,
+    second: video2,
+    third: img8,
+
   },
   fifth: {
-    first: one,
-    second: video,
+    first: img5,
+    second: video3,
+  third: img6,
+
   },
   sixth: {
-    first: one,
-    second: video,
+    first: img7,
+    second: video1,
+  third: img3,
   },
   seventh: {
-    first: one,
-    second: video,
-    third: video,
+    first: img2,
+    second: video3,
+    third: img4,
   },
 };
 
