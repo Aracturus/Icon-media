@@ -13,7 +13,9 @@ const Cards = (props) => {
           alt="video_source"
           className="card_img img_one"
         /> */}
-         <HoverVideoPlayer
+
+        <img className="card_img img_one" src={props.src.first} alt="" srcset="" />
+         {/* <HoverVideoPlayer
             videoSrc={props.src.first}
             className="card_img img_one"
             restartOnPaused
@@ -30,7 +32,7 @@ const Cards = (props) => {
                 }}
               />
             }
-          />
+          /> */}
         {/* <HoverVideoPlayer src={props.src.second} alt="video_source" className="card_img img_two" /> */}
         <HoverVideoPlayer
             videoSrc={props.src.second}

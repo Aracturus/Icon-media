@@ -20,19 +20,19 @@ let fCard = {
   second: video,
   third: video,
   fourth: {
-    first: video,
+    first: one,
     second: video,
   },
   fifth: {
-    first: video,
+    first: one,
     second: video,
   },
   sixth: {
-    first: video,
+    first: one,
     second: video,
   },
   seventh: {
-    first: video,
+    first: one,
     second: video,
     third: video,
   },

@@ -4,7 +4,7 @@ import Image from "./images/c.png";
 function Quote() {
   return (
     <>
-      <div className="quote" >
+      <div className="quote " >
         <h1>
           Let's create a measurable<br />
           impact on your business.
@@ -23,6 +23,9 @@ function Quote() {
         .quote {
             height: 500px;
             display: flex;
+            background-image:url(${Image});
+            background-size:cover;
+            background-position:center;
           
             flex-direction: column;
             justify-content: center;
